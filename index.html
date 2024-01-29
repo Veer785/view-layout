@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="viewButton" onclick="showView('fullView')">Full View</button>
+    <button class="viewButton" onclick="showView('columnView')">
+      Column View
+    </button>
+    <button class="viewButton" onclick="showView('borderView')">
+      Border View
+    </button>
+
+    <div id="fullView" class="viewContainer">
+      <div class="box">Content 1</div>
+      <div class="box">Content 2</div>
+      <div class="box">Content 3</div>
+    </div>
+
+    <div id="columnView" class="viewContainer">
+      <div class="box1">Content 1</div>
+      <div class="box1">Content 2</div>
+      <div class="box1">Content 3</div>
+      <div class="box1">Content 4</div>
+      <div class="box1">Content 5</div>
+      <div class="box1">Content 6</div>
+    </div>
+
+    <div id="borderView" class="viewContainer">
+      <div class="container">
+        <div class="boxOne">Sidebar</div>
+        <div class="boxTwo">Content</div>
+        <div class="boxThree">Sidebar</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
